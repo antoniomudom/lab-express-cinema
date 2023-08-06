@@ -1,0 +1,25 @@
+<div>
+<a href="/">Home</a>
+
+<div class="movies">
+     {{#each this.movies}}
+    <div class="movies-cositas">
+        <img src="{{this.image}}" alt="" width="200" height="250">
+         <h3>{{this.title}}</h3>
+         <a href="/movies/{{this._id}}"><h4>See more</h4></a>
+        
+
+
+    </div>
+         
+            
+        {{/each}}
+    
+
+
+</div>
+       
+
+
+    
+</div>
